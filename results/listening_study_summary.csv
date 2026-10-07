@@ -1,0 +1,10 @@
+comparison,question,method1_votes,method2_votes,no_preference_votes,method1_participants,method2_participants,raw_p
+no_game_vs_lower_stackelberg,coordination,89,64,35,26,12,0.0336
+no_game_vs_lower_stackelberg,coherence,94,66,28,24,7,0.0033
+no_game_vs_lower_stackelberg,overall,80,59,49,20,9,0.0614
+no_game_vs_qre,coordination,81,61,46,22,12,0.1214
+no_game_vs_qre,coherence,86,64,38,19,8,0.0522
+no_game_vs_qre,overall,77,51,60,19,7,0.0290
+lower_stackelberg_vs_qre,coordination,86,70,32,19,14,0.4869
+lower_stackelberg_vs_qre,coherence,96,67,25,24,13,0.0989
+lower_stackelberg_vs_qre,overall,79,62,47,20,13,0.2962

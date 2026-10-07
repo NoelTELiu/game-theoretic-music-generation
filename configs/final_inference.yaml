@@ -1,0 +1,45 @@
+# Validation-selected duration-aware inference settings used in the final study.
+# All methods use the same trained checkpoint and candidate-set construction;
+# only the inference-time pair-selection rule changes.
+checkpoint: checkpoints/utility_ctx16_duration_aware/best.pt
+data: data/processed/jsb_two_voice_tokens.npz
+split: test
+steps: 128
+top_k: 12
+temperature: 1.0
+
+methods:
+  no_game_joint:
+    method: no_game_joint
+
+  qre:
+    method: qre_game
+    alpha: 0.5
+    beta_private: 0.5
+    qre_beta: 0.5
+    qre_iterations: 20
+    compat_top_pairs: 20
+
+  lower_stackelberg:
+    method: stackelberg_game
+    alpha: 0.5
+    beta_private: 0.5
+    stackelberg_leader: lower
+    stackelberg_mode: soft
+    stackelberg_beta: 0.75
+
+  upper_stackelberg:
+    method: stackelberg_game
+    alpha: 0.5
+    beta_private: 0.5
+    stackelberg_leader: upper
+    stackelberg_mode: soft
+    stackelberg_beta: 0.75
+
+  nash_ablation:
+    method: nash_game
+    alpha: 1.0
+    beta_private: 1.0
+    nash_tie_break: welfare
+    nash_fallback: welfare
+    nash_atol: 1.0e-9

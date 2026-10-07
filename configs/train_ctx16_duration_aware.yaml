@@ -1,0 +1,18 @@
+data:
+  path: data/processed/jsb_two_voice_tokens.npz
+
+output:
+  save_dir: checkpoints/utility_ctx16_duration_aware
+
+model:
+  context_len: 16
+  emb_dim: 32
+  hidden_dim: 256
+  dropout: 0.15
+  duration_aware_state: true
+
+training:
+  batch_size: 256
+  epochs: 30
+  learning_rate: 0.001
+  seed: 42
