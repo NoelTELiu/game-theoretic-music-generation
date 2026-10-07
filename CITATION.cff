@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Do Game-Theoretic Decision Rules Improve Two-Voice Music Generation?"
+message: "If you use this repository, please cite the accompanying 2026 manuscript."
+type: software
+authors:
+  - family-names: Liu
+    given-names: Po-Chen
+  - family-names: Fan
+    given-names: Hsiang-Yen
+date-released: 2026-10-07
+repository-code: "https://github.com/NoelTELiu/game-theoretic-music-generation"
+license: MIT
