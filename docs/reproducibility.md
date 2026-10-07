@@ -10,7 +10,7 @@
 - listening-stimulus construction scripts
 - validation-selected final inference settings
 - compact final objective, bootstrap, and listening-study result tables
-- ISMIR LBD manuscript and extended technical report
+- accepted ISMIR 2026 LBD camera-ready paper and extended technical report
 
 ## What is intentionally not included
 
@@ -39,5 +39,5 @@ The final study used a duration-aware context-16 checkpoint. Checkpoints are ign
 
 ## Papers
 
-- `docs/papers/ismir_lbd_2026_submission.pdf`: compact 3-page manuscript submitted to ISMIR LBD 2026.
+- `docs/papers/ismir_lbd_2026_submission.pdf`: compact 3-page camera-ready paper accepted at ISMIR 2026 LBD. The PDF is preserved exactly as submitted to the conference.
 - `docs/papers/extended_technical_report.pdf`: 10-page extended report with the complete experimental narrative.

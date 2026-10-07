@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Do Game-Theoretic Decision Rules Improve Two-Voice Music Generation?"
-message: "If you use this repository, please cite the accompanying 2026 manuscript."
+message: "If you use this repository, please cite the accompanying paper accepted at ISMIR 2026 Late-Breaking/Demo (LBD)."
 type: software
 authors:
   - family-names: Liu

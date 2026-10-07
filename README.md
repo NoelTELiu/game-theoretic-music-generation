@@ -3,8 +3,8 @@
 **Po-Chen Liu** · **Hsiang-Yen Fan**  
 National Tsing Hua University, Taiwan
 
-**Status:** Submitted to **ISMIR Late-Breaking/Demo (LBD), 2026**  
-**Paper:** [ISMIR LBD manuscript](docs/papers/ismir_lbd_2026_submission.pdf) · [Extended technical report](docs/papers/extended_technical_report.pdf)
+**Status:** Accepted at **ISMIR 2026 Late-Breaking/Demo (LBD)**  
+**Paper:** [Camera-ready paper](docs/papers/ismir_lbd_2026_submission.pdf) · [Extended technical report](docs/papers/extended_technical_report.pdf)
 
 Research code and experimental artifacts for a controlled study of whether **game-theoretic inference-time decision rules** improve symbolic two-voice music generation beyond a strong learned joint-compatibility baseline.
 
@@ -75,7 +75,7 @@ Relative to No-game joint:
 
 ![Representative paired-bootstrap effects relative to No-game](assets/final_bootstrap_effects.png)
 
-*Representative paired-bootstrap effects from the ISMIR LBD manuscript. Negative differences favor the compared method because all three plotted metrics are lower-is-better.*
+*Representative paired-bootstrap effects from the ISMIR LBD camera-ready paper. Negative differences favor the compared method because all three plotted metrics are lower-is-better.*
 
 Full compact result tables are available in [`results/`](results/).
 
@@ -103,7 +103,7 @@ The strategic methods were selected from different validation search spaces: **Q
 
 ## Papers and documentation
 
-- [ISMIR LBD 2026 submission (3 pages)](docs/papers/ismir_lbd_2026_submission.pdf) - compact paper containing the final framing, evaluation, and main figure.
+- [ISMIR LBD 2026 camera-ready paper (3 pages)](docs/papers/ismir_lbd_2026_submission.pdf) - accepted paper containing the final framing, evaluation, and main figure. The PDF is preserved exactly as submitted to the conference.
 - [Extended technical report (10 pages)](docs/papers/extended_technical_report.pdf) - full method, validation, final-test, listening-study, discussion, and limitations.
 - [Experimental design notes](docs/experiment_details.md)
 - [Listening-study details](docs/listening_study.md)
@@ -117,7 +117,7 @@ The strategic methods were selected from different validation search spaces: **Q
 ├── configs/                 # training and final inference settings
 ├── data/                    # local raw/processed data placeholders
 ├── docs/
-│   ├── papers/              # ISMIR manuscript and extended report
+│   ├── papers/              # ISMIR camera-ready paper and extended report
 │   └── ...                  # experiment/listening/reproducibility notes
 ├── results/                 # compact final result tables
 ├── scripts/                 # preprocessing, training, generation, evaluation
@@ -255,17 +255,17 @@ The repository uses the standard JSB Chorales train/validation/test split distri
 
 ## Citation
 
-Until a proceedings citation is available, please cite the submitted manuscript as:
+Until an official proceedings citation is available, please cite the accepted paper as:
 
 ```bibtex
 @misc{liu2026gametheoretic,
   title  = {Do Game-Theoretic Decision Rules Improve Two-Voice Music Generation?},
   author = {Liu, Po-Chen and Fan, Hsiang-Yen},
   year   = {2026},
-  note   = {Submitted to ISMIR Late-Breaking/Demo (LBD)}
+  note   = {Accepted at ISMIR 2026 Late-Breaking/Demo (LBD)}
 }
 ```
 
 ## License
 
-The code in this repository is released under the [MIT License](LICENSE). Third-party datasets remain subject to their own terms and are not redistributed here. The 3-page ISMIR manuscript contains its own CC BY 4.0 notice.
+The code in this repository is released under the [MIT License](LICENSE). Third-party datasets remain subject to their own terms and are not redistributed here. The 3-page ISMIR camera-ready paper contains its own CC BY 4.0 notice.
